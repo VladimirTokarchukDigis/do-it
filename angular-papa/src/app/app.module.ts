@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomerComponent } from './customer/customer.component';
+import { OrdersComponent } from './orders/orders.component';
+import { SearchBoxDirective } from './search-box.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomerComponent
+    CustomerComponent,
+    OrdersComponent,
+    SearchBoxDirective
   ],
   imports: [
     BrowserModule,
